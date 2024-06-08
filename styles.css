@@ -1,0 +1,176 @@
+*{
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+:root{
+    /* ## Colors
+
+### Primary */
+
+--Moderate-violet: hsl(263, 55%, 52%);
+--Very-dark-grayish-blue: hsl(217, 19%, 35%);
+--Very-dark-blackish-blue: hsl(219, 29%, 14%);
+--White: hsl(0, 0%, 100%);
+
+/* ### Neutral */
+
+--Light-gray: hsl(0, 0%, 81%);
+--Light-grayish-blue: hsl(210, 46%, 95%);
+}
+
+.light-gray-text{
+    color: var(--Light-gray);
+}
+
+.Light-grayish-blue{
+    color: var(--Very-dark-grayish-blue);
+}
+
+
+body {
+    background-color: var(--Light-grayish-blue);
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+}
+
+.card {
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+.purple-card {
+    background-color: #a25ddc;
+    color: white;
+}
+
+.dark-card {
+    background-color: #333;
+    color: white;
+}
+
+.light-card {
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+.card-subtitle {
+    font-style: italic;
+}
+
+.card-text {
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+
+.daniel-container{
+    height: 100%;
+    padding: 0;
+}
+
+.testimonial-card{
+    margin: 0;
+    height: 100%;
+    padding: 0;
+}
+
+.jonathan-walter{
+    margin: 0;
+    padding: 0;
+}
+
+.jonathan-walter .col{
+    padding: 0;
+    height: 100%;
+}
+
+.Kira-Whittle .col{
+height: 100%;
+}
+
+.col-8{
+    padding: 0;
+}
+
+.col-4{
+    padding: 0;
+}
+
+.jeanette-harmon{
+    height: 100%;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.jonathan-card{
+    background-color: var(--Very-dark-grayish-blue);
+}
+
+.col{
+    height: 100%;
+}
+
+.dark-card{
+    background-color: var(--Very-dark-blackish-blue);
+}
+
+.card-body{
+    position: relative;
+}
+
+.pattern-quotation{
+    border-radius: 0;
+    position: absolute;
+    top:1rem;
+    right: 4rem;
+    z-index: 1;
+
+}
+
+.card-text{
+    position: relative;
+    z-index: 2;
+}
+
+.p-heading{
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+    .pe-4{
+        padding: 0!important;
+    }
+
+    .row {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+
+    .row>*{
+        padding: 0;
+    }
+
+    .col-lg-8{
+        margin-bottom: 1.5rem;
+    }
+
+    .jeanette-harmon-row .col-lg-4{
+        margin-bottom: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .pattern-quotation {
+        right: 1rem;
+    }
+}
